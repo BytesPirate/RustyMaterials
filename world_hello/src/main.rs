@@ -1,13 +1,7 @@
-fn greet_world() {
-    let southern_germany = "Grüß Gott!";
-    let chinese = "世界，你好";
-    let english = "World, hello";
-    let regions = [southern_germany, chinese, english];
-    for region in regions.iter() {
-        println!("{}", &region);
-    }
-}
+/*
+    对于 Rust 的安装并不会进行过多的介绍，在安装完成之后，进行每个代码的 course ：Hello, World!
+ */
 
 fn main() {
-    greet_world();
+    println!("Hello, world!");
 }
